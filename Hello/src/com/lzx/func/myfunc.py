@@ -6,6 +6,7 @@ Created on 2013-6-15
 
 from com.lzx.module import m1
 from com.lzx.classes.obj import User
+from com.lzx.classes.obj import MetricData
 
 if __name__ == '__main__':
     pass
@@ -44,3 +45,9 @@ print user.age
 print user2.age
 print User.age
 
+md = MetricData()
+md.show()
+#print dir(MetricData)
+#print dir(md)
+#print dir(User)
+#print dir(user2)
