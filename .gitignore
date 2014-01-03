@@ -1,5 +1,5 @@
 *.py[cod]
-
+elb/.idea
 # C extensions
 *.so
 
